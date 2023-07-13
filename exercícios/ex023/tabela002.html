@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>0000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni excepturi voluptatum neque maxime autem esse placeat debitis magnam illum repudiandae, sed possimus repellat delectus, obcaecati hic cumque vero expedita modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatum quaerat sit nobis ad! Quibusdam, placeat qui voluptatibus labore deserunt magnam, accusantium ullam ipsum vel doloremque rerum quasi reprehenderit. Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ratione recusandae enim quae id atque beatae obcaecati, nemo rem sequi deserunt consequuntur cumque eos dolorem, repellat tempora architecto. Tempore, repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae provident inventore ad, expedita iste eaque voluptate totam excepturi suscipit non accusamus necessitatibus reiciendis quod fugiat ab! Assumenda eum hic fugiat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur libero vero beatae, nobis enim aperiam incidunt eveniet facere repellendus natus! Laborum quae quos cum consequatur totam error vel voluptas corrupti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem praesentium, provident quasi sit voluptatum totam fugiat? Cum laudantium dolore veniam porro voluptatum dolores, fuga modi itaque excepturi omnis eos qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolorum reprehenderit blanditiis, ea ipsa accusamus magni est, sequi vitae, nulla suscipit ducimus tempore! Sequi quod voluptas tempore officia natus praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat esse nesciunt possimus eius ab voluptatum asperiores ea facilis odio quos nobis quas, obcaecati quidem nulla, illo incidunt? Eius, deserunt quaerat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nulla itaque similique ab soluta dolorem obcaecati, numquam quis, eum sequi qui quae dolorum facilis delectus quaerat ipsam ducimus error veritatis!</p>
+</body>
+</html>
